@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="tip.css">
+</head>
+<body>
+    <main>
+        <header class="title">
+            <h1>
+                TIP CALCULATOR
+            </h1>
+        </header>
+        <div class="container">
+            
+            <div class="input">
+                <div class="item item-1">
+                    <label>Bill Amount : &#8377</label>
+                    <input type="number" placeholder="Enter amount to be paid" id="bill-amount" min="5" max="10000">
+                </div>
+
+                <div class="item item-2">How was the service :
+                    <select name="service" id="services">
+                        <option>Worst</option>
+                        <option>Bad</option>
+                        <option>Good</option>
+                        <option>Excellent</option>
+                        <option>Top Notch</option>
+                    </select>
+                </div>
+                
+                <div class="item item-3">
+                    <label>Choose your Tip :</label>
+                    <select name="percent" id="tip-percent">
+                        <option>Select</option>
+                        <option>5%</option>
+                        <option>10%</option>
+                        <option>15%</option>
+                        <option>20%</option>
+                        <option>25%</option>
+                    </select>
+                </div>
+
+                <div class="item item-4">
+                    <label>Number of Persons:</label>
+                    <input type="number" placeholder="Number of people sharing the bill" id="persons">
+                </div>
+                
+                <div class="item item-5">
+                    <button id="btn" onclick="">Calculate</button>
+                </div>
+                
+            </div>
+
+            <div class="output">
+                <div>Tip Amount: &#8377
+                    <span id="tip-amount">0</span>
+                    <span id="each">each</span>
+                </div>
+
+                <div>Total Bill: &#8377
+                    <span id="total-bill">0</span>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <b>By MADHU </b>
+        </footer>
+        <script src="tip.js">
+
+        </script>
+    </main>
+</body>
+</html>
