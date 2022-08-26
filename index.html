@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tip Calculator</title>
     <link rel="stylesheet" href="tip.css">
+    <link rel="icon" name="image/x-icon" href="img.jpg">
+    <title>Tip Calculator</title>
 </head>
+
 <body>
     <main>
         <header class="title">
@@ -24,6 +26,7 @@
 
                 <div class="item item-2">How was the service :
                     <select name="service" id="services">
+                        <option>Select</option>
                         <option>Worst</option>
                         <option>Bad</option>
                         <option>Good</option>
@@ -35,12 +38,12 @@
                 <div class="item item-3">
                     <label>Choose your Tip :</label>
                     <select name="percent" id="tip-percent">
-                        <option>Select</option>
-                        <option>5%</option>
-                        <option>10%</option>
-                        <option>15%</option>
-                        <option>20%</option>
-                        <option>25%</option>
+                        <option>Select Percentage</option>
+                        <option>5</option>
+                        <option>10</option>
+                        <option>15</option>
+                        <option>20</option>
+                        <option>25</option>
                     </select>
                 </div>
 
@@ -48,13 +51,13 @@
                     <label>Number of Persons:</label>
                     <input type="number" placeholder="Number of people sharing the bill" id="persons">
                 </div>
-                
-                <div class="item item-5">
-                    <button id="btn" onclick="">Calculate</button>
-                </div>
-                
+    
             </div>
 
+            <div class="item item-5">
+                <button id="btn">Calculate</button>
+            </div>
+            
             <div class="output">
                 <div>Tip Amount: &#8377
                     <span id="tip-amount">0</span>
@@ -68,7 +71,7 @@
         </div>
 
         <footer>
-            <b>By MADHU </b>
+            <b>Designed By: MADHU C A </b>
         </footer>
         <script src="tip.js">
 
