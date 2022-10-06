@@ -94,8 +94,15 @@ footer{
     font-size: 25px;        
     width: 100%;     
 }
-@media screen and (min-width:310px) and (max-width :370px){
+@media screen and (min-width:310px) and (max-width :380px){
     header{
         font-size: 15px;
+    }
+
+    .container{
+        margin:1% 35%;
+    }
+
     
+
 }
