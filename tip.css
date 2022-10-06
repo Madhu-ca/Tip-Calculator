@@ -100,7 +100,8 @@ footer{
     }
 
     .container{
-        margin:10px 40px;
+        /* margin:10px 40px; */
+        width: 280px;
     }
 
     
