@@ -102,8 +102,12 @@ footer{
     .container{
         /* margin:10px 40px; */
         width: 280px;
+        font-size: 18px;
     }
-
+    input,select{
+        height: 35px;
+        width: 230px;
+    }
     
 
 }
