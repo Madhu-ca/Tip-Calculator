@@ -39,7 +39,7 @@ header{
     margin:5px 20px;
     padding:15px 5px;
     font-size: 25px;
-    height: 450px;
+    height: 500px;
     width: 320px;
     /* keep width and height absolute(pixels).So that the their length do not vary 
     in any screen */
